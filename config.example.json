@@ -1,0 +1,30 @@
+{
+  "prestador": {
+    "cnpj": "00.000.000/0001-00",
+    "nome": "EMPRESA PRESTADORA LTDA",
+    "municipio": "Curitiba",
+    "uf": "PR",
+    "codigo_ibge": "4106902"
+  },
+  "servico_padrao": {
+    "codigo_tributacao_nacional": "01.03.02",
+    "atividade": "Armazenamento ou hospedagem de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação",
+    "descricao_padrao": "Mensalidade da manutenção do site",
+    "municipio_prestacao": "Curitiba",
+    "iss_retido": false
+  },
+  "clients": {
+    "cliente_exemplo": {
+      "name": "CLIENTE EXEMPLO LTDA",
+      "cnpj": "00.000.000/0001-99",
+      "default_value": "150,00",
+      "description": "Mensalidade da manutenção do site",
+      "email": {
+        "enabled": true,
+        "to": "financeiro@cliente.com.br",
+        "subject": "Nota Fiscal - {{mes}} de {{ano}}",
+        "body": "Olá, tudo bem?<br><br>Segue a nota fiscal deste mês.<br><br>Obrigado!"
+      }
+    }
+  }
+}

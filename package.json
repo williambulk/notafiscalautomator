@@ -1,0 +1,23 @@
+{
+  "name": "notafiscal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "emit": "node emit.js --emit",
+    "emit:all": "node emit.js --emit --all",
+    "dry-run": "node emit.js --dry-run",
+    "dry-run:all": "node emit.js --dry-run --all",
+    "login": "node emit.js --login-only",
+    "sync-clients": "node sync-clients.js",
+    "send-email": "node send-email.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "nodemailer": "^10.0.12",
+    "playwright": "^1.63.0"
+  }
+}
